@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Filmszoeker</title>
+    <script src="movies.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Filmzoeker</h1>
+    <p>Filter uw keuze:</p>
+    <nav class="navigation">
+        <div class="knopjes">
+            <input type="radio" id="all-movies" class="button" name="movies" value="all">
+            <label for="all" class="label">All movies</label>
+
+            <input type="radio" id="new-movies" class="button" name="movies" value="new">
+            <label for="new" class="label">New movies</label>
+
+            <input type="radio" id="avengers-movies" class="button" name="movies" value="avenger">
+            <label for="avenger" class="label">Avenger movies</label>
+
+            <input type="radio" id="x-men-movies" class="button" name="movies" value="x-men">
+            <label for="x-men" class="label">X-Men movies</label>
+
+            <input type="radio" id="princess-movies" class="button" name="movies" value="princess">
+            <label for="princess" class="label">Princess movies</label>
+
+            <input type="radio" id="batman-movies" class="button" name="movies" value="batman">
+            <label for="batman" class="label">Batman movies</label>
+        </div>
+    </nav>
+    <main>
+        <div class="overview">
+            <ul class="movie-overview"></ul>
+        </div>
+    </main>
+
+</body>
+
+</html>
